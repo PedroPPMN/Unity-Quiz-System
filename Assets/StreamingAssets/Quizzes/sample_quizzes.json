@@ -1,0 +1,38 @@
+{
+  "Quizzes": [
+    {
+      "Id": "demo-quiz",
+      "Title": "Portfolio Quiz Demo",
+      "Questions": [
+        {
+          "Id": "q1",
+          "Type": 0,
+          "Prompt": "Ports and adapters help isolate Unity MonoBehaviours from infrastructure. True or False?",
+          "Options": ["True", "False"],
+          "CorrectAnswers": ["True"],
+          "DragPairs": []
+        },
+        {
+          "Id": "q2",
+          "Type": 1,
+          "Prompt": "Fill the blank: Dependency _____ keeps high-level modules free of low-level details.",
+          "Options": [],
+          "CorrectAnswers": ["Inversion"],
+          "DragPairs": []
+        },
+        {
+          "Id": "q3",
+          "Type": 2,
+          "Prompt": "Match each layer to its role (submit as source=>target lines).",
+          "Options": [],
+          "CorrectAnswers": [],
+          "DragPairs": [
+            { "Source": "Domain", "Target": "Ports and models" },
+            { "Source": "Infrastructure", "Target": "HTTP adapters" },
+            { "Source": "Presentation", "Target": "Views" }
+          ]
+        }
+      ]
+    }
+  ]
+}
